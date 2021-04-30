@@ -1,0 +1,361 @@
+
+html, body {
+    text-align: center;
+    }
+    p {text-align: left;}
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background: #697281;
+        text-align: left;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: #F1F5F8;
+        background-color:#679159;
+    }
+    *
+    {
+      margin: 0 auto 0 auto;
+     text-align:left;}
+    
+    #page
+    {
+      margin: 0 auto 0 auto; 
+      margin-top:25px;
+      display: block; 
+      height:auto;
+      position: relative; 
+      overflow: hidden; 
+      background: #679159 url(https://www.html.am/templates/downloads/bryantsmith/greencreative/background.png) repeat-y;
+      width: 738px;
+    }
+    
+    #header
+    {
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/header.png);
+    background-repeat:no-repeat;
+    height:111px;
+    width:738px;
+    }
+    
+    #headerTitle
+    {
+    position:relative;
+    left:30px;
+    top:30px;
+    color:#283823;
+    text-align:left;
+    font-size:34px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    #headerSubText
+    {
+    position:relative;
+    left:33px;
+    top:30px;
+    color:#679159;
+    text-align:left;
+    font-size:16px;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    
+    #bar
+    {
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/bar.png);
+    background-repeat:no-repeat;
+    height:55px;
+    width:750px;
+    line-height:55px;
+    padding-left:20px;
+    padding-right:20px;
+    }
+    
+    #bar a
+    {
+    font-size:13px;
+    font-weight:bold;
+    color:#FBFDFB;
+    margin-left:28px;
+    margin-right:28px;
+    }
+    
+    #bar a:hover
+    {
+    color:#C7E0C2;
+    animation: movebar 5s infinite;
+    
+    }
+   
+    #headerSubText:hover
+    { 
+    animation: movesub 5s infinite;
+    background-color: blue;
+    }
+    #headerTitle:hover 
+    {
+      animation: moveheader 2s infinite;
+      background-color: green;
+    }
+    @keyframes movesub {
+      0% {
+        transform: translate(0px);
+      }
+    
+      25% {
+        transform: translate(10px);
+      }
+    
+      50% {
+        transform: translate(20px);
+      }
+    
+      75% {
+        transform: translate(10px);
+      }
+    
+      100% {
+        transform: translate(0px);
+      }
+    }
+    @keyframes movebar {
+      0% {
+        background-color: orange;
+      }
+    
+      25% {
+        background-color: green;
+      }
+    
+      50% {
+        background-color: red;
+      }
+    
+      75% {
+        background-color: darkblue;
+      }
+    
+      100% {
+        background-color: orange;
+      }
+    }
+
+    @keyframes moveheader {
+      0% {
+        transform: scale(0.5);
+      }
+    
+      25% {
+        transform: scale(1);
+      }
+    
+      50% {
+        transform: scale(0.5);
+      }
+    
+      75% {
+        transform: scale(1);
+      }
+    
+      100% {
+        transform: scale(0.5);  
+      }
+    }
+    @keyframes movetemplate {
+      0% {
+        transform: rotate(0deg);
+      }
+    
+      25% {
+        transform: rotate(90deg);
+      }
+    
+      50% {
+        transform: rotate(180deg);
+      }
+    
+      75% {
+        transform: rotate(270deg);
+      }
+    
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    @keyframes moveanother {
+      0% {
+        transform: rotate(0deg);
+      }
+    
+      25% {
+        transform: rotate(-90deg);
+      }
+    
+      50% {
+        transform: rotate(-180deg);
+      }
+    
+      75% {
+        transform: rotate(-270deg);
+      }
+    
+      100% {
+        transform: rotate(-360deg);
+      }
+    }
+    @keyframes bounce {
+      0% {
+        transform: scale(0.5);
+      }
+    
+      25% {
+        transform: scale(1);
+      }
+    
+      50% {
+        transform: scale(0.5);
+      }
+    
+      75% {
+        transform: scale(1);
+      }
+    
+      100% {
+        transform: scale(0.5);  
+      }
+    }
+    @keyframes movefooter {
+      0% {
+        transform: translate(0px);
+      }
+    
+      25% {
+        transform: translate(10px);
+      }
+    
+      50% {
+        transform: translate(20px);
+      }
+    
+      75% {
+        transform: translate(10px);
+      }
+    
+      100% {
+        transform: translate(0px);
+      }
+    }
+    .contentTitle1
+    {
+    width:676px;
+    height:37px;
+    margin-top:20px;
+    margin-left:25px;
+    margin-right:25px;
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/tab_back.png);
+    background-repeat:no-repeat;
+    
+    }
+    .contentTitle1:hover
+    {
+      animation: movetemplate 5s infinite;
+    }
+    .contentTitle2
+    {
+    width:676px;
+    height:37px;
+    margin-top:20px;
+    margin-left:25px;
+    margin-right:25px;
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/tab_back.png);
+    background-repeat:no-repeat;
+    
+    }
+    .contentTitle2:hover
+    {
+      animation: moveanother 5s infinite;
+    }
+    .contentTitle3
+    {
+    width:676px;
+    height:37px;
+    margin-top:20px;
+    margin-left:25px;
+    margin-right:25px;
+    background-image:url(https://www.html.am/templates/downloads/bryantsmith/greencreative/tab_back.png);
+    background-repeat:no-repeat;
+    
+    }
+    
+    .contentTitle1 h1
+    {
+    margin-left:21px;
+    padding-top:8px;
+    font-size:17px;
+    font-weight:bold;
+    color:#071027;
+    }
+    .contentTitle2 h1
+    {
+    margin-left:21px;
+    padding-top:8px;
+    font-size:17px;
+    font-weight:bold;
+    color:#071027;
+    }
+    .contentTitle3 h1
+    {
+    margin-left:21px;
+    padding-top:8px;
+    font-size:17px;
+    font-weight:bold;
+    color:#071027;
+    }
+    
+    .comments
+    {
+    font-size:11px;
+    font-style:italic;
+    }
+    
+    .contentText
+    {
+    width:680px;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:13px;
+    color:#030712;
+    line-height:30px;
+    animation: bounce 5s;
+    animation-iteration-count: infinite;
+    }
+    
+    a
+    {
+    text-decoration:none;
+    color:#152413;
+    }
+    
+    a:hover
+    {
+    color:#597A41;
+    }
+    
+    
+    #footer {
+    width: 738px;
+    height:53px;
+    background: url(https://www.html.am/templates/downloads/bryantsmith/greencreative/footer.png) no-repeat;
+    text-align:center;
+    font-size:9px;
+    color:#152413;
+    padding-top:38px;
+    animation: movefooter 5s;
+    animation-iteration-count: 1;
+    }
+    
+    
